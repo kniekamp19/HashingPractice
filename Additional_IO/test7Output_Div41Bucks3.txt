@@ -1,0 +1,128 @@
+Divisor: 41 (A divisor value of 0 means Midsquare hashing was used)
+Bucket Size: 3
+
+Input values:
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+
+Values of -1 indicate an empty bucket slot.
+
+
+
+Collision handling: Linear Probing
+Hash table with bucket size 3:
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+Number of collisions using Linear Probing: 1617
+
+
+Collision handling: Quadratic Probing
+Hash table with bucket size 3:
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+-1  -1  -1  
+0  0  0  
+-1  -1  -1  
+0  0  0  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+0  0  0  
+0  0  0  
+-1  -1  -1  
+0  0  0  
+0  0  0  
+-1  -1  -1  
+0  0  0  
+0  0  0  
+-1  -1  -1  
+0  0  0  
+0  0  0  
+-1  -1  -1  
+0  0  0  
+0  0  0  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+0  0  0  
+-1  -1  -1  
+0  0  0  
+-1  -1  -1  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+
+Number of collisions using Quadratic Probing: 2089
+Values not stored in hash table:
+0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  
+0  0  0  

@@ -1,0 +1,11 @@
+These are
+RANDOM
+words
+with no
+numbers.
+My program
+should not read them.
+Pineapple on
+pizza is
+wonderful. 
+!@#$%^&*()

@@ -1,0 +1,126 @@
+Divisor: 0 (A divisor value of 0 means Midsquare hashing was used)
+Bucket Size: 1
+
+Input values:
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+
+Values of -1 indicate an empty bucket slot.
+
+Collision handling: Linear Probing
+Hash table with bucket size 1:
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+-1  -1  -1  -1  -1  
+-1  -1  -1  -1  -1  
+-1  -1  -1  -1  -1  
+-1  -1  -1  -1  -1  
+
+Number of collisions using Linear Probing: 4950
+
+
+Collision handling: Quadratic Probing
+Hash table with bucket size 1:
+0  0  -1  -1  0  
+0  -1  -1  -1  0  
+0  -1  -1  -1  -1  
+0  0  -1  -1  0  
+0  -1  -1  -1  0  
+0  0  -1  -1  -1  
+0  -1  -1  -1  -1  
+0  0  -1  -1  -1  
+0  -1  -1  -1  0  
+0  0  -1  -1  -1  
+-1  -1  -1  -1  0  
+0  0  -1  -1  -1  
+0  -1  -1  -1  0  
+0  -1  -1  -1  -1  
+0  -1  -1  -1  0  
+0  0  -1  -1  -1  
+0  0  -1  -1  0  
+0  -1  -1  -1  -1  
+0  0  -1  -1  -1  
+0  0  -1  -1  0  
+0  0  -1  -1  0  
+-1  -1  -1  -1  0  
+0  0  -1  -1  -1  
+-1  0  -1  -1  0  
+
+Number of collisions using Quadratic Probing: 8112
+Values not stored in hash table:
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  
+
+Collision handling: Chaining
+Hash table with bucket size 1:
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+0  0  0  0  0  
+-1  -1  -1  -1  -1  
+-1  -1  -1  -1  -1  
+-1  -1  -1  -1  -1  
+-1  -1  -1  -1  -1  
+
+Number of collisions using Chaining: 4950

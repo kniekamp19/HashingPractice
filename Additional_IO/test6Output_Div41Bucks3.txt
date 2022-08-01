@@ -1,0 +1,101 @@
+Divisor: 41 (A divisor value of 0 means Midsquare hashing was used)
+Bucket Size: 3
+
+Input values:
+120  121  122  123  
+
+Values of -1 indicate an empty bucket slot.
+
+
+
+Collision handling: Linear Probing
+Hash table with bucket size 3:
+123  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+120  -1  -1  
+121  -1  -1  
+122  -1  -1  
+Number of collisions using Linear Probing: 0
+
+
+Collision handling: Quadratic Probing
+Hash table with bucket size 3:
+123  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+-1  -1  -1  
+120  -1  -1  
+121  -1  -1  
+122  -1  -1  
+
+Number of collisions using Quadratic Probing: 0
