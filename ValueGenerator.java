@@ -5,6 +5,8 @@ Lab 2 - Hashing
 This is an additional program to generate files with values for testing
 purposes. The desired number of values is input and a text file containing
 a random list of values between 0 and 99,999 is output.
+
+Usage: java ValueGenerator [output.txt] (int)[numOfValues]
 */
 
 import java.io.*;
